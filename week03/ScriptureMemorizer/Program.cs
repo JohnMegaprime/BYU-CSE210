@@ -5,8 +5,8 @@ class Program
     static void Main(string[] args)
     {
         string word = "";
-        Reference reference = new Reference("Mosias", 2, 17);
-        Scripture scripture = new Scripture(reference, "E eis que vos digo estas coisas para que aprendais sabedoria; para que saibais que, quando estais a serviço de vosso próximo, estais somente a serviço de vosso Deus.");
+        Reference reference = new Reference("Mosiah", 2, 17);
+        Scripture scripture = new Scripture(reference, "And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.");
 
         while (word != "quit")
         {
