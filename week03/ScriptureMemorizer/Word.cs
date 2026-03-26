@@ -24,7 +24,12 @@ public class Word
 
     public void Hide()
     {
-        _wordText = new string('_', _wordText.Length);
+        List<string> characters = [];
+        foreach (char letter in _wordText)
+        {
+            characters.Add("_");
+        }
+        _wordText = string.Join("",characters);
         _isHidden = true;
     }
     
