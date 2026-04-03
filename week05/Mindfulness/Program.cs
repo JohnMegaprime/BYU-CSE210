@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        //To exceed the requirements, I added a function to count how many times the user completed
+        // each activity
 
         BreathingActivity breathingActivity = new BreathingActivity();
         ListingActivity listingActivity = new ListingActivity();
